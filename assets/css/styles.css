@@ -23,7 +23,7 @@ img {
     width: 100%;
 }
 
-section {
+.container {
     max-width: 1440px;
     height: 100vh;
     padding: 1rem;
@@ -32,7 +32,7 @@ section {
     justify-content: center;
 }
 
-.image-text-container {
+.card {
     width: 300px;
     background-color: var(--secondary-bg-color);
     padding: 1rem;
@@ -41,17 +41,17 @@ section {
     text-align: center;
 }
 
-.image-text-container img {
+.card img {
     border-radius: 8px;
 }
 
-.image-text-container h2 {
+.text h2 {
     font-size: 1.3rem;
     margin: 20px 0 15px;
     color: var(--primary-text-color);
 }
 
-.image-text-container p {
+.text p {
     font-size: 15px;
     padding: 0 13px;
     color: var(--secondary-text-color);
